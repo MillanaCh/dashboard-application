@@ -147,6 +147,7 @@ const contactsSlice = createSlice({
         data: null,
       };
     },
+    
     closeNewContactDialog: (state, action) => {
       state.contactDialog = {
         type: 'new',

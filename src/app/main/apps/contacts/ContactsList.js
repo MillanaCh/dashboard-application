@@ -15,7 +15,7 @@ import {
   selectContacts,
 } from './store/contactsSlice';
 
-function ContactsList(props) {
+function ContactsList() {
   const dispatch = useDispatch();
   const contacts = useSelector(selectContacts);
   const searchText = useSelector(({ contactsApp }) => contactsApp.contacts.searchText);
